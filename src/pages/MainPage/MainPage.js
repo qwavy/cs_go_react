@@ -1,8 +1,12 @@
+import './MainPage.css'
+
+import main__page__background from '../../images/main__page__background.png'
+
 const MainPage = () => {
     return (
         <div className="main__page">
-            <header>
-                <div className="header__logo">
+            <div className='main__page__header'>
+                <div className="main__page__header__logo">
                     <div>
 
                         <svg xmlns="http://www.w3.org/2000/svg" width="45" height="41" viewBox="0 0 45 41" fill="none">
@@ -31,13 +35,37 @@ const MainPage = () => {
                     <a>Контакты</a>
                 </div>
                 <div className="header__profile">
-                    <button>Войти</button>
+                    <button className="header__profile__button">Войти</button>
                 </div>
-            </header>
-            <main>
+            </div>
+            <div className='main__page__main'>
+                <div>
 
-            </main>
-            <footer></footer>
+                    <h1 className='main__page__main__title'>Принимайте платежи
+                        от пользователей
+                        с помощью скинов CS:GO и DOTA 2</h1>
+                    <button className='main__page__main__button'>Подключить проект</button>
+                </div>
+            </div>
+            <div className='main__page__footer'>
+                <div>
+                    <p>Copyright © Skincash.ru</p>
+                </div>
+                <div className='main__page__foooter__navbar'>
+                    <p>
+
+                        <a>Помощь</a>
+                    </p>
+                    <p>
+                        <a>Контакты</a>
+
+                    </p>
+                    <p>
+                        <a>Пользовательское соглашение</a>
+
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }

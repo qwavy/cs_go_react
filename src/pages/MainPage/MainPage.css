@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: #20222A;
+
+}
+
+.main__page {
+    width: 1440px;
+    height: 900px;
+    margin: auto;
+}
+
+.main__page__header {
+    background-color: #20222A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid #272E3B;
+}
+
+.main__page__header__logo {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.header__profile__button {
+    padding: 10px 24px;
+    border-radius: 48px;
+    background-color: #F4C038;
+
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.main__page__main {
+    height: 100%;
+    background-image: url('../../images/main__page__background.png');
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main__page__main__title {
+
+    width: 650px;
+
+    font-family: Rubik;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #FFF;
+    margin: 0 30% 20% 8%;
+}
+
+.main__page__main__button {
+    padding: 14px 40px;
+    border-radius: 48px;
+    background-color: #F4C038;
+
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+
+    margin-left: 8%;
+
+}
+
+
+.main__page__footer {
+
+    border: 1px solid #272E3B;
+
+    background-color: #20222A;
+
+
+    display: flex;
+    justify-content: space-around;
+
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.main__page__foooter__navbar {
+    width: 40%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
